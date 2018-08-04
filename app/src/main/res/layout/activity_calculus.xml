@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/calculus_age2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="CalculAge"
+        android:textSize="60dp"
+        android:textStyle="italic"
+        android:textColor="#b5381e3d" />
+
+    <TextView
+        android:id="@+id/tv_born_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btn_choose_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_date"
+        android:layout_gravity="center"
+        android:textColor="#f8381e3d"
+        android:background="#9f9999a1"
+        android:textStyle="italic"
+        android:layout_margin="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_calculated_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#f8381e3d"/>
+
+    <TextView
+        android:id="@+id/tv_actual_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_penultimate_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_difference_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center"/>
+</LinearLayout>

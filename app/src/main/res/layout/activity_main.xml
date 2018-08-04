@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center"
+    android:background="@drawable/calculus_age1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CalculAge"
+            android:textSize="60dp"
+            android:textStyle="italic"
+            android:textColor="#b5381e3d"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/start"
+            android:textStyle="italic"
+            android:textColor="#f8381e3d"
+            android:background="#9f9999a1"
+            android:layout_margin="60dp"/>
+    </LinearLayout>
