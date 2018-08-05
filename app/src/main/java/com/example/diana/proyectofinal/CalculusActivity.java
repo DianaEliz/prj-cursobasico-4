@@ -99,15 +99,6 @@ public class CalculusActivity extends AppCompatActivity implements View.OnClickL
                 calculateAges(currentAgeYear);
         }
 
-
-        /*if ((bornYear > currentYear)) {
-            showDialog();
-        } else if ( (bornYear <= currentAgeYear && bornMonth > currentMonth) || (bornMonth == currentMonth && bornDay > currentDay)) {
-            currentAgeYear -= 1;
-            calculateAges(currentAgeYear);
-        } else {
-            calculateAges(currentAgeYear);
-        }*/
     }
 
     public void showDialog(){

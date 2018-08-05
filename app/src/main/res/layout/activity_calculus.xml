@@ -7,68 +7,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/calculus_age2">
+    android:gravity="center_horizontal"
+    android:background="@drawable/age2">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="CalculAge"
-        android:textSize="60dp"
-        android:textStyle="italic"
-        android:textColor="#b5381e3d" />
-
-    <TextView
-        android:id="@+id/tv_born_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_marginTop="90dp"
         android:gravity="center"
-        android:textColor="#000000"/>
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CalculAge"
+            android:textSize="60dp"
+            android:textStyle="italic"
+            android:textColor="#b5381e3d" />
 
-    <Button
-        android:id="@+id/btn_choose_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/choose_date"
-        android:layout_gravity="center"
-        android:textColor="#f8381e3d"
-        android:background="#9f9999a1"
-        android:textStyle="italic"
-        android:layout_margin="60dp"/>
-
-    <TextView
-        android:id="@+id/tv_calculated_age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/btn_choose_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_date"
+            android:layout_gravity="center"
+            android:textColor="#f8381e3d"
+            android:background="#64a49d9d"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/tv_born_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#b5381e3d"/>
+    </LinearLayout>
+    <LinearLayout
         android:gravity="center"
-        android:textStyle="italic"
-        android:textSize="20dp"
-        android:textColor="#f8381e3d"/>
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_actual_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:textColor="#f8381e3d"
+            android:gravity="center"/>
 
-    <TextView
-        android:id="@+id/tv_actual_age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textStyle="italic"
-        android:textSize="15dp"
-        android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_penultimate_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:textColor="#f8381e3d"
+            android:gravity="center"/>
 
-    <TextView
-        android:id="@+id/tv_penultimate_age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textStyle="italic"
-        android:textSize="15dp"
-        android:gravity="center"/>
-
-    <TextView
-        android:id="@+id/tv_difference_age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textStyle="italic"
-        android:textSize="15dp"
-        android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_difference_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:textColor="#f8381e3d"
+            android:gravity="center"/>
+    </LinearLayout>
 </LinearLayout>
